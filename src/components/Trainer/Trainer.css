@@ -132,7 +132,7 @@ body {
     margin-top: 10px;
     background-color: #f5f5f5;
     max-height: 304px;
-    overflow: scroll;
+    
     overflow-x: hidden;
     border: 2px solid #aaa;
 }
@@ -153,4 +153,13 @@ body {
 
 .Browser td {
     padding: 8px;
+}
+
+.DetailsPanel {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+    padding: 12px;
+    width: 494px;
+    margin-top: 8px;
 }

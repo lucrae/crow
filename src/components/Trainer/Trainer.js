@@ -17,28 +17,38 @@ class Trainer extends React.Component {
         openingFENs: openings[0].openingFENs,
         openingMoves: openings[0].openingMoves,
         selectedMoveIndex: 0,
-    }
+    };
 
     search = e => {
-        const value = e.target.value.toLowerCase();
+        const searchValue = e.target.value.toLowerCase();
         const openingsList = openings.filter(opening => {
             const name = opening.openingName.toLowerCase();
-            return value.length === 0 || (value.length > 0 && name.includes(value));
+            const ECO = opening.openingECO.toLowerCase();
+            return searchValue.length === 0 || (searchValue.length > 0 && (name.includes(searchValue) || (ECO === searchValue)));
         });
-        this.setState({ openingsList });
+        this.setState({openingsList});
     };
+
+    searchRelated = e => {
+        const searchMoves = e;
+        const relatedOpeningsList = openings.filter(opening => {
+            const moves = opening.openingMoves.substring(0, searchMoves.length);
+            return moves === searchMoves;
+        });
+        this.setState({relatedOpeningsList})
+    }
 
     moveIndexStartHandler = () => {
         this.setState({
             selectedMoveIndex: 0,
         })
-    }
+    };
 
     moveIndexEndHandler = () => {
         this.setState({
             selectedMoveIndex: this.state.openingFENs.length - 1,
         })
-    }
+    };
 
     moveIndexForwardHandler = () => {
         if (this.state.selectedMoveIndex < this.state.openingFENs.length - 1) {
@@ -46,7 +56,7 @@ class Trainer extends React.Component {
                 selectedMoveIndex: this.state.selectedMoveIndex + 1,
             });
         };
-    }
+    };
 
     moveIndexBackHandler = () => {
         if (this.state.selectedMoveIndex > 0) {
@@ -54,7 +64,7 @@ class Trainer extends React.Component {
                 selectedMoveIndex: this.state.selectedMoveIndex - 1,
             });
         };
-    }
+    };
 
     selectOpeningHandler = (openingIndex) => {
         this.setState({
@@ -63,8 +73,9 @@ class Trainer extends React.Component {
             openingFENs: this.state.openingsList[openingIndex].openingFENs,
             openingMoves: this.state.openingsList[openingIndex].openingMoves,
             selectedMoveIndex: 0,
-        })
-    }
+        });
+        this.searchRelated(this.state.openingsList[openingIndex].openingMoves);
+    };
 
     render() {
         const searchResults = this.state.openingsList.map(
@@ -73,6 +84,14 @@ class Trainer extends React.Component {
 
         const searchResultsDisplay = searchResults.length > 0 ? searchResults : (
             <div className={classes.NoResults}>No openings found...</div>
+        );
+
+        const relatedOpeningsResults= this.state.relatedOpeningsList.map(
+            (x, i) => <Opening selectionHandler={() => this.selectOpeningHandler(i)} openingECO={x.openingECO} openingName={x.openingName} selected={this.state.openingName === x.openingName} />
+        );
+
+        const relatedOpeningsResultsDisplay = relatedOpeningsResults.length > 0 ? relatedOpeningsResults : (
+            <div className={classes.NoResults}>No related openings found...</div>
         );
 
         return (
@@ -124,8 +143,22 @@ class Trainer extends React.Component {
                     </div>
                 </div>
 
-                {/* SIDE BOARD */}
-                <Board openingFEN={this.state.openingFENs[this.state.selectedMoveIndex]} />
+                <div>
+                    {/* SIDE BOARD */}
+                    <Board openingFEN={this.state.openingFENs[this.state.selectedMoveIndex]} />
+
+                    {/* DETAILS PANEL */}
+                    <div className={classes.DetailsPanel}>
+                        <div className={classes.SubTitle}>DETAILS</div>
+                        <div>Related Openings ({relatedOpeningsResults.length}/{openings.length})</div>
+                        <div className={classes.Browser}>
+                            <table>
+                                {relatedOpeningsResultsDisplay}
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
                 <main>
                     {this.props.children}
                 </main>
