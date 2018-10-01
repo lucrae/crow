@@ -1,0 +1,156 @@
+body {
+    background-color: #f8f8f8;  
+}
+
+.Layout {
+    margin: 64px auto;
+    max-width: 880px;
+    display: flex;
+}
+
+.headPanel {
+    color: #666;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.headPanel i {
+    margin-right: 6px;
+}
+
+.headMain {
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #666;
+    padding: 2px 4px;
+    color: white;
+    border-radius: 2px;
+}
+
+.headSub {
+    font-weight: bold;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.SidePanel {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+    padding: 12px;
+    width: 320px;
+    margin-bottom: 8px;
+}
+
+.SubTitle {
+    color: #888;
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+.Title {
+    color: #2222b1;
+}
+
+.TitleECO {
+    font-weight: bold;
+}
+
+.PGN {
+    margin-top: 8px;
+    background-color: #eee;
+    padding: 8px;
+    font-family: monospace;
+    color: #444;
+    line-height: 140%;
+    border-radius: 4px;
+}
+
+.MoveIndex {
+    width: 72px;
+    color: #444;
+}
+
+.Filler {
+    width: 48px;
+}
+
+.Navigator table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Navigator td {
+    text-align: center;
+}
+
+.Navigator button {
+    width: 36px;
+    height: 32px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    color: #444;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Navigator button:disabled {
+    background-color: #fff;
+    border: 1px solid #eee;
+    color: #ccc;
+}
+
+.Navigator button:hover:enabled {
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.Navigator button:active:enabled {
+    background-color: #ccc;
+}
+
+.SearchField {
+    margin-top: 6px;
+}
+
+.NoResults {
+    text-align: center;
+    padding: 12px;
+    color: #888;
+}
+
+.SearchField input {
+    padding: 6px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.Browser {
+    margin-top: 10px;
+    background-color: #f5f5f5;
+    max-height: 304px;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: 2px solid #aaa;
+}
+
+.Browser table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.Browser tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.Browser tr:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.Browser td {
+    padding: 8px;
+}

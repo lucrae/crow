@@ -1,0 +1,17 @@
+.LightSquare {
+    float: left;
+    width: 64px;
+    height: 64px;
+    background-color: #f0d9b5;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.DarkSquare {
+    float: left;
+    width: 64px;
+    height: 64px;
+    background-color: #b58863;
+    display: table-cell;
+}
