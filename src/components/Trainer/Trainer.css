@@ -76,6 +76,24 @@ body {
     width: 48px;
 }
 
+.Back button {
+    width: 36px;
+    height: 32px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    color: #444;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Back button:disabled {
+    background-color: #fff;
+    border: 1px solid #eee;
+    color: #ccc;
+}
+
 .Navigator table {
     width: 100%;
     border-collapse: collapse;

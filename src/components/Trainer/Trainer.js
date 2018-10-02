@@ -11,12 +11,13 @@ class Trainer extends React.Component {
     state = {
         openingsList: openings,
         relatedOpeningsList: [],
+        browsingHistory: ['Anderssen\'s Opening'],
 
         openingECO: openings[0].openingECO,
         openingName: openings[0].openingName,
         openingFENs: openings[0].openingFENs,
         openingMoves: openings[0].openingMoves,
-        selectedMoveIndex: 0,
+        selectedMoveIndex: openings[0].openingFENs.length - 1,
     };
 
     search = e => {
@@ -29,13 +30,32 @@ class Trainer extends React.Component {
         this.setState({openingsList});
     };
 
-    searchRelated = e => {
-        const searchMoves = e;
+    searchRelated = (m, n) => {
+        const searchMoves = m;
+        const searchName = n;
         const relatedOpeningsList = openings.filter(opening => {
+            const name = opening.openingName;
             const moves = opening.openingMoves.substring(0, searchMoves.length);
-            return moves === searchMoves;
+            return moves === searchMoves && name !== searchName;
         });
-        this.setState({relatedOpeningsList})
+        this.setState({relatedOpeningsList});
+    }
+
+    selectFromNameHandler = (searchName) => {
+        const resultList = openings.filter(opening => {
+            return opening.openingName === searchName;
+        });
+        if (resultList.length !== 0) {
+            this.setState({
+                openingECO: resultList[0].openingECO,
+                openingName: resultList[0].openingName,
+                openingFENs: resultList[0].openingFENs,
+                openingMoves: resultList[0].openingMoves,
+                selectedMoveIndex: resultList[0].openingFENs.length - 1,
+            });
+            this.searchRelated(resultList[0].openingMoves, resultList[0].openingName);
+            this.state.browsingHistory.splice(-1, 1);
+        }
     }
 
     moveIndexStartHandler = () => {
@@ -72,9 +92,22 @@ class Trainer extends React.Component {
             openingName: this.state.openingsList[openingIndex].openingName,
             openingFENs: this.state.openingsList[openingIndex].openingFENs,
             openingMoves: this.state.openingsList[openingIndex].openingMoves,
-            selectedMoveIndex: 0,
+            selectedMoveIndex: this.state.openingsList[openingIndex].openingFENs.length - 1,
         });
-        this.searchRelated(this.state.openingsList[openingIndex].openingMoves);
+        this.searchRelated(this.state.openingsList[openingIndex].openingMoves, this.state.openingsList[openingIndex].openingName);
+        this.state.browsingHistory.push(this.state.openingsList[openingIndex].openingName);
+    };
+
+    selectRelatedOpeningHandler = (openingIndex) => {
+        this.setState({
+            openingECO: this.state.relatedOpeningsList[openingIndex].openingECO,
+            openingName: this.state.relatedOpeningsList[openingIndex].openingName,
+            openingFENs: this.state.relatedOpeningsList[openingIndex].openingFENs,
+            openingMoves: this.state.relatedOpeningsList[openingIndex].openingMoves,
+            selectedMoveIndex: this.state.relatedOpeningsList[openingIndex].openingFENs.length - 1,
+        });
+        this.searchRelated(this.state.relatedOpeningsList[openingIndex].openingMoves, this.state.relatedOpeningsList[openingIndex].openingName);
+        this.state.browsingHistory.push(this.state.relatedOpeningsList[openingIndex].openingName);
     };
 
     render() {
@@ -86,12 +119,12 @@ class Trainer extends React.Component {
             <div className={classes.NoResults}>No openings found...</div>
         );
 
-        const relatedOpeningsResults= this.state.relatedOpeningsList.map(
-            (x, i) => <Opening selectionHandler={() => this.selectOpeningHandler(i)} openingECO={x.openingECO} openingName={x.openingName} selected={this.state.openingName === x.openingName} />
+        const relatedOpeningsResults = this.state.relatedOpeningsList.map(
+            (x, i) => <Opening selectionHandler={() => this.selectRelatedOpeningHandler(i)} openingECO={x.openingECO} openingName={x.openingName} selected={this.state.openingName === x.openingName} />
         );
 
         const relatedOpeningsResultsDisplay = relatedOpeningsResults.length > 0 ? relatedOpeningsResults : (
-            <div className={classes.NoResults}>No related openings found...</div>
+            <div className={classes.NoResults}>No child openings found...</div>
         );
 
         return (
@@ -107,7 +140,9 @@ class Trainer extends React.Component {
 
                     {/* NAVIGATOR */}
                     <div className={classes.SidePanel}>
-                        <div className={classes.SubTitle}>OPENING VIEWER</div>
+                        <div className={classes.SubTitle}>
+                            OPENING VIEWER
+                        </div>
                         <div className={classes.Title}>
                             <span className={classes.TitleECO}>{this.state.openingECO} </span>
                             {this.state.openingName}
@@ -118,7 +153,7 @@ class Trainer extends React.Component {
                         <br />
                         <div className={classes.Navigator}>
                             <table>
-                                <td className={classes.Filler} />
+                                <td className={classes.Filler}><button onClick={() => this.selectFromNameHandler(this.state.browsingHistory[this.state.browsingHistory.length - 2])} disabled={this.state.browsingHistory.length <= 1}><i class="fa fa-arrow-left" /></button></td>
                                 <td><button onClick={this.moveIndexStartHandler} disabled={this.state.selectedMoveIndex <= 0}><i class="fa fa-fast-backward" /></button></td>
                                 <td><button onClick={this.moveIndexBackHandler} disabled={this.state.selectedMoveIndex <= 0}><i class="fa fa-step-backward" /></button></td>
                                 <td className={classes.MoveIndex}>{this.state.selectedMoveIndex + 1} / {this.state.openingFENs.length}</td>
@@ -150,7 +185,7 @@ class Trainer extends React.Component {
                     {/* DETAILS PANEL */}
                     <div className={classes.DetailsPanel}>
                         <div className={classes.SubTitle}>DETAILS</div>
-                        <div>Related Openings ({relatedOpeningsResults.length}/{openings.length})</div>
+                        <div>Child Openings ({relatedOpeningsResults.length})</div>
                         <div className={classes.Browser}>
                             <table>
                                 {relatedOpeningsResultsDisplay}
