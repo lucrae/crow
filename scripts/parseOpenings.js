@@ -22,7 +22,7 @@ function createFENList(pgn) {
 
 let openings = []
 
-fs.createReadStream('./openings.csv')
+fs.createReadStream('./openings_data.csv')
     .pipe(csv())
     .on('data', function (data) {
         try {
@@ -31,6 +31,9 @@ fs.createReadStream('./openings.csv')
                 openingName: data.openingName,
                 openingMoves: data.openingMoves,
                 openingFENs: createFENList(data.openingMoves),
+                openingWhiteScore: data.openingWhiteScore,
+                openingDrawScore: data.openingDrawScore,
+                openingBlackScore: data.openingBlackScore,
             };
 
             openings.push(opening);

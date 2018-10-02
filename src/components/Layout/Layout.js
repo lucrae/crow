@@ -3,11 +3,19 @@ import React from 'react';
 import Board from '../Board/Board';
 import Opening from '../Opening/Opening';
 
-import classes from './Trainer.css';
+import classes from './Layout.css';
 
 import openings from '../../data/openings'
 
-class Trainer extends React.Component {
+const ECOCategories = {
+    'A': 'Flank Openings',
+    'B': 'Semi-Open Games',
+    'C': 'Open Games',
+    'D': 'Closed and Semi-Closed Games',
+    'E': 'Indian Defences',
+}
+
+class Layout extends React.Component {
     state = {
         openingsList: openings,
         relatedOpeningsList: [],
@@ -17,6 +25,9 @@ class Trainer extends React.Component {
         openingName: openings[0].openingName,
         openingFENs: openings[0].openingFENs,
         openingMoves: openings[0].openingMoves,
+        openingWhiteScore: openings[0].openingWhiteScore,
+        openingDrawScore: openings[0].openingDrawScore,
+        openingBlackScore: openings[0].openingBlackScore,
         selectedMoveIndex: openings[0].openingFENs.length - 1,
     };
 
@@ -51,6 +62,9 @@ class Trainer extends React.Component {
                 openingName: resultList[0].openingName,
                 openingFENs: resultList[0].openingFENs,
                 openingMoves: resultList[0].openingMoves,
+                openingWhiteScore: resultList[0].openingWhiteScore,
+                openingDrawScore: resultList[0].openingDrawScore,
+                openingBlackScore: resultList[0].openingBlackScore,
                 selectedMoveIndex: resultList[0].openingFENs.length - 1,
             });
             this.searchRelated(resultList[0].openingMoves, resultList[0].openingName);
@@ -92,6 +106,10 @@ class Trainer extends React.Component {
             openingName: this.state.openingsList[openingIndex].openingName,
             openingFENs: this.state.openingsList[openingIndex].openingFENs,
             openingMoves: this.state.openingsList[openingIndex].openingMoves,
+            openingWhiteScore: this.state.openingsList[openingIndex].openingWhiteScore,
+            openingDrawScore: this.state.openingsList[openingIndex].openingDrawScore,
+            openingBlackScore: this.state.openingsList[openingIndex].openingBlackScore,
+            
             selectedMoveIndex: this.state.openingsList[openingIndex].openingFENs.length - 1,
         });
         this.searchRelated(this.state.openingsList[openingIndex].openingMoves, this.state.openingsList[openingIndex].openingName);
@@ -104,6 +122,10 @@ class Trainer extends React.Component {
             openingName: this.state.relatedOpeningsList[openingIndex].openingName,
             openingFENs: this.state.relatedOpeningsList[openingIndex].openingFENs,
             openingMoves: this.state.relatedOpeningsList[openingIndex].openingMoves,
+            openingWhiteScore: this.state.relatedOpeningsList[openingIndex].openingWhiteScore,
+            openingDrawScore: this.state.relatedOpeningsList[openingIndex].openingDrawScore,
+            openingBlackScore: this.state.relatedOpeningsList[openingIndex].openingBlackScore,
+            
             selectedMoveIndex: this.state.relatedOpeningsList[openingIndex].openingFENs.length - 1,
         });
         this.searchRelated(this.state.relatedOpeningsList[openingIndex].openingMoves, this.state.relatedOpeningsList[openingIndex].openingName);
@@ -185,6 +207,18 @@ class Trainer extends React.Component {
                     {/* DETAILS PANEL */}
                     <div className={classes.DetailsPanel}>
                         <div className={classes.SubTitle}>DETAILS</div>
+                        <div className={classes.Details}>
+                            <div><b>Name/s:</b> {this.state.openingName}</div>
+                            <div><b>ECO Category:</b> [{this.state.openingECO}] {ECOCategories[this.state.openingECO.substring(0, 1)]}</div>
+                            <div><b>Avg. Scores:</b></div>
+                            <div className={classes.Statistics}>
+                                <div className={classes.StatisticsWhite} style={{ flex: `1 1 ${this.state.openingWhiteScore}%` }}>{this.state.openingWhiteScore}</div>
+                                <div className={classes.StatisticsDraw} style={{ flex: `1 1 ${this.state.openingDrawScore}%` }}>{this.state.openingDrawScore}</div>
+                                <div className={classes.StatisticsBlack} style={{ flex: `1 1 ${this.state.openingBlackScore}%` }}>{this.state.openingBlackScore}</div>
+                            </div>
+                        </div>
+
+
                         <div>Child Openings ({relatedOpeningsResults.length})</div>
                         <div className={classes.Browser}>
                             <table>
@@ -202,4 +236,4 @@ class Trainer extends React.Component {
     };
 };
 
-export default Trainer;
+export default Layout;

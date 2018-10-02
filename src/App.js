@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-import Trainer from './components/Trainer/Trainer'
+import Layout from './components/Layout/Layout'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Trainer />
+        <Layout />
       </div>
     );
   }

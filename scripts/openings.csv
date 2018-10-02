@@ -1,4 +1,3 @@
-"openingECO","openingName","openingMoves"
 "A00","Anderssen's Opening","1.a3"
 "A00","Polish Gambit, Anderssen's Opening","1.a3 a5 2.b4"
 "A00","Creepy Crawly Formation","1.a3 e5 2.h3 d5"
@@ -2293,7 +2292,7 @@
 "C45","C45","1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4"
 "C45","Malaniuk Variation, Scotch","1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bb4+"
 "C45","Classical Variation, Scotch","1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5"
-"C45`","Paulsen Attack, Scotch","1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3 Qf6 6.c3 Nge7 7.Bb5"
+"C45","Paulsen Attack, Scotch","1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3 Qf6 6.c3 Nge7 7.Bb5"
 "C45","Gunsberg Defense, Scotch","1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3 Qf6 6.c3 Nge7 7.Bb5 Nd8"
 "C45","Fleissig; Meitner Variation, Scotch","1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3 Qf6 6.c3 Nge7 7.Nc2"
 "C45","Blackburne Attack, Scotch","1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3 Qf6 6.c3 Nge7 7.Qd2"

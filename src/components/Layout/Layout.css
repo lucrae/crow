@@ -181,3 +181,46 @@ body {
     width: 494px;
     margin-top: 8px;
 }
+
+.Details {
+    background-color: #eee;
+    padding: 8px;
+    font-size: 14px;
+    font-family: monospace;
+    color: #444;
+    line-height: 140%;
+    border-radius: 4px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.Statistics {
+    margin-top: 4px;
+    width: 100%;
+    border: 1px solid #444;
+    display: flex;
+}
+
+.StatisticsWhite {
+    padding: 6px;
+    background-color: white;
+    width: 20%;
+    color: black;
+    text-align: center;
+}
+
+.StatisticsDraw {
+    padding: 6px;
+    background-color: #aaa;
+    width: 20%;
+    color: black;
+    text-align: center;
+}
+
+.StatisticsBlack {
+    padding: 6px;
+    background-color: #444;
+    width: 20%;
+    color: white;
+    text-align: center;
+}
