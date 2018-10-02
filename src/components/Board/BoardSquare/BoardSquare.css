@@ -2,15 +2,14 @@
     float: left;
     width: 64px;
     height: 64px;
-/*     background-color: #dee3e6; */
-    background-color: #f0d9b5;
+    background-color: #dee3e6;
+/*     background-color: #f0d9b5; */
 }
 
 .DarkSquare {
     float: left;
     width: 64px;
     height: 64px;
-/*     background-color: #8ca2ad; */
-    background-color: #b58863;
-    display: table-cell;
+    background-color: #8ca2ad;
+/*     background-color: #b58863; */
 }
