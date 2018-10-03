@@ -42,7 +42,7 @@ const squareColors = {
 const boardSquare = (props) => {
     const piece = Boolean(pieceSet[props.squarePiece]) && <img src={pieceSet[props.squarePiece]} alt="FISH" width={pieceSize} />;
     return (
-        <div className={squareColors[props.squareColor]}>{piece}</div>
+        <div className={squareColors[props.squareColor]} style={props.style}>{piece}</div>
     )
 }
 

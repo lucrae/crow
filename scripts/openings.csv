@@ -336,7 +336,7 @@
 "D34","Classical Tarrasch Gambit","1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.Nf3 Nc6 6.g3 Nf6 7.Bg2 Be7 8.O-O O-O 9.dxc5 d4"
 "D33","Wagner Variation, Tarrasch","1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.Nf3 Nc6 6.g3 Nf6 7.Bg2 Bg4"
 "D32","Symmetrical Variation, Tarrasch","1.d4 d5 2.c4 e6 3.Nc3 c5 4.e3 Nf6 5.Nf3 Nc6"
-"D31","Semi-Slav Defense","1.d4 d5 2.c4 e6 3.Nc3 c6  "
+"D31","Semi-Slav Defense","1.d4 d5 2.c4 e6 3.Nc3 c6"
 "A84","Slav Stonewall, Dutch","1.d4 d5 2.c4 e6 3.Nc3 c6 4.e3 f5"
 "D31","Portisch Gambit, Semi-Slav","1.d4 d5 2.c4 e6 3.Nc3 c6 4.e3 f5 5.g4"
 "D31","Marshall Gambit, Semi-Slav","1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4  "

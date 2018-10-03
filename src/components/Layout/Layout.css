@@ -169,6 +169,11 @@ body {
     cursor: pointer;
 }
 
+.Browser tr:active {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
 .Browser td {
     padding: 8px;
 }
