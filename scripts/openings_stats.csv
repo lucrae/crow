@@ -1,0 +1,500 @@
+A00,Uncommon Opening,6492,33.2,26,40.9
+A01,Nimzovich-Larsen Attack,14275,36,29.4,34.7
+A02,Bird's Opening,20353,34.9,25.2,40
+A03,Bird's Opening,9785,34.1,25.9,40
+A04,Reti Opening,290527,37.2,36.6,26.2
+A05,Reti Opening,132385,37,38.4,24.6
+A06,Reti Opening,76607,37.3,36.6,26.1
+A07,King's Indian Attack,29752,37.5,36.9,25.6
+A08,King's Indian Attack,3564,40.7,31.3,28
+A09,Reti Opening,18109,39.6,35.1,25.3
+A10,English,236302,37.7,34.1,28.2
+A11,"English, Caro-Kann Defensive System",16149,36.5,38.6,25
+A12,English with b3,2692,35.5,35.7,28.8
+A13,English,29981,36.2,37.8,26
+A14,English,7438,37.1,42,20.8
+A15,English,73976,39,33.6,27.5
+A16,English,48029,39.7,32.8,27.5
+A17,English,12241,40.6,33.8,25.6
+A18,"English, Mikenas-Carls",4492,45.7,30.3,24
+A19,"English, Mikenas-Carls, Sicilian Variation",1122,37.7,33.5,28.8
+A20,English,53113,38.5,30.9,30.6
+A21,English,38418,38.1,30.7,31.2
+A22,English,24322,37.8,32.7,29.6
+A23,"English, Bremen System, Keres Variation",1690,38.9,29.5,31.7
+A24,"English, Bremen System with ...g6",494,43.1,28.3,28.5
+A25,English,11808,38.4,30.6,31.1
+A26,English,2005,33,36.1,30.9
+A27,"English, Three Knights System",4453,39,31.1,30
+A28,English,12265,37.3,36.1,26.6
+A29,"English, Four Knights, Kingside Fianchetto",5588,37.8,36.7,25.5
+A30,"English, Symmetrical",27912,37.1,37.7,25.3
+A31,"English, Symmetrical, Benoni Formation",8381,34.4,31.7,34
+A32,"English, Symmetrical Variation",1306,28.6,40,31.3
+A33,"English, Symmetrical",3536,32.7,44.5,22.9
+A34,"English, Symmetrical",12354,35.3,35.6,29.1
+A35,"English, Symmetrical",6614,37.2,36.2,26.7
+A36,English,4370,36.6,37.1,26.3
+A37,"English, Symmetrical",7425,28.1,40.1,31.8
+A38,"English, Symmetrical",4050,38.1,40.5,21.4
+A39,"English, Symmetrical, Main line with d4",3118,38.9,41,20.1
+A40,Queen's Pawn Game,1113851,37.9,33.5,28.5
+A41,Queen's Pawn Game (with ...d6),30659,36.9,32.2,30.9
+A42,"Modern Defense, Averbakh System",13206,40.1,29.6,30.4
+A43,Old Benoni,16532,39.8,26.9,33.3
+A44,Old Benoni Defense,4170,45.8,25.8,28.4
+A45,Queen's Pawn Game,620590,36.5,34.1,29.3
+A46,Queen's Pawn Game,170666,35.2,34.8,30
+A47,Queen's Indian,4732,34.6,34,31.4
+A48,King's Indian,72568,35.6,34,30.3
+A49,"King's Indian, Fianchetto without c4",13609,33,38,29.1
+A50,Queen's Pawn Game,416112,37.1,34.6,28.4
+A51,Budapest Gambit,9522,44.1,26.5,29.4
+A52,Budapest Gambit,6793,46,27.6,26.4
+A53,Old Indian,14896,39.7,31.1,29.2
+A54,"Old Indian, Ukrainian Variation, 4.Nf3",2578,36.2,35.1,28.7
+A55,"Old Indian, Main line",4089,40.6,33.8,25.6
+A56,Benoni Defense,52233,38.8,27.9,33.3
+A57,Benko Gambit,22028,39.4,27.8,32.8
+A58,Benko Gambit,7980,37.7,31.2,31.1
+A59,Benko Gambit,648,37.7,29.9,32.4
+A60,Benoni Defense,11757,42.3,24.4,33.2
+A61,Benoni,9392,41.8,29.2,28.9
+A62,"Benoni, Fianchetto Variation",3509,34.7,31.8,33.5
+A63,"Benoni, Fianchetto, 9...Nbd7",294,28.9,35,36.1
+A64,"Benoni, Fianchetto, 11...Re8",1176,30.7,31.5,37.8
+A65,"Benoni, 6.e4",8705,43.3,23.4,33.3
+A66,Benoni,3097,45.6,21.1,33.3
+A67,"Benoni, Taimanov Variation",2156,47.7,21.6,30.7
+A68,"Benoni, Four Pawns Attack",662,37.9,21.5,40.6
+A69,"Benoni, Four Pawns Attack, Main line",1199,45.5,24.6,29.9
+A70,"Benoni, Classical with 7.Nf3",4681,38.5,28,33.5
+A71,"Benoni, Classical, 8.Bg5",592,48.1,22.8,29.1
+A72,"Benoni, Classical without 9.O-O",1900,36.3,28.2,35.5
+A73,"Benoni, Classical, 9.O-O",2210,36.8,28.6,34.6
+A74,"Benoni, Classical, 9...a6, 10.a4",573,38.2,29.5,32.3
+A75,"Benoni, Classical with ...a6 and 10...Bg4",470,35.3,29.8,34.9
+A76,"Benoni, Classical, 9...Re8",1139,35.9,27.6,36.5
+A77,"Benoni, Classical, 9...Re8, 10.Nd2",1408,40.6,27.9,31.5
+A78,"Benoni, Classical with ...Re8 and ...Na6",657,38.2,30.3,31.5
+A79,"Benoni, Classical, 11.f3",407,41.3,31.4,27.3
+A80,Dutch,38629,40.2,29.1,30.8
+A81,Dutch,11790,42.4,32.8,24.7
+A82,"Dutch, Staunton Gambit",2532,39.5,23.2,37.3
+A83,"Dutch, Staunton Gambit",1761,38.3,24.2,37.5
+A84,Dutch,9816,36.2,27.6,36.2
+A85,"Dutch, with c4 & Nc3",4911,34.2,26.4,39.4
+A86,Dutch,2070,37.6,32.9,29.5
+A87,"Dutch, Leningrad, Main Variation",3019,36.8,33,30.2
+A88,"Dutch, Leningrad, Main Variation with c6",3291,37.5,33.6,28.9
+A89,"Dutch, Leningrad, Main Variation with Nc6",2875,36.9,30.6,32.5
+A90,Dutch,5432,42.3,33.7,24
+A91,Dutch Defense,1818,44.5,30.7,24.8
+A92,Dutch,1551,43.3,31.3,25.4
+A93,"Dutch, Stonewall, Botvinnik Variation",554,49.6,33.2,17.1
+A94,"Dutch, Stonewall with Ba3",423,47.5,34.5,18
+A95,"Dutch, Stonewall",762,41.6,30.6,27.8
+A96,"Dutch, Classical Variation",2466,44.4,31.2,24.4
+A97,"Dutch, Ilyin-Genevsky",1444,44.1,31.6,24.3
+A98,"Dutch, Ilyin-Genevsky Variation with Qc2",367,45,27.5,27.5
+A99,"Dutch, Ilyin-Genevsky Variation with b3",443,51.9,29.3,18.7
+B00,Uncommon King's Pawn Opening,1703588,38.2,29.9,31.9
+B01,Scandinavian,61468,41,27.2,31.8
+B02,Alekhine's Defense,40307,37.8,29,33.2
+B03,Alekhine's Defense,21760,40.4,30.8,28.8
+B04,"Alekhine's Defense, Modern",12617,41,32.8,26.2
+B05,"Alekhine's Defense, Modern",5803,42.5,31,26.5
+B06,Robatsch,51579,37.3,28.1,34.5
+B07,Pirc,55390,40.7,29.5,29.8
+B08,"Pirc, Classical",9998,35.8,32.9,31.3
+B09,"Pirc, Austrian Attack",9469,43.2,28.3,28.5
+B10,Caro-Kann,121780,37.3,33.1,29.6
+B11,"Caro-Kann, Two Knights, 3...Bg4",4465,35.7,35.1,29.2
+B12,Caro-Kann Defense,98036,37.3,33.6,29.1
+B13,"Caro-Kann, Exchange",25989,35.4,34.5,30.2
+B14,"Caro-Kann, Panov-Botvinnik Attack",8979,38.2,35.2,26.6
+B15,Caro-Kann,29879,35.5,36.1,28.4
+B16,"Caro-Kann, Bronstein-Larsen Variation",3820,39.5,29.6,30.9
+B17,"Caro-Kann, Steinitz Variation",10959,36,39,25
+B18,"Caro-Kann, Classical",20455,33.8,39.4,26.7
+B19,"Caro-Kann, Classical",8797,33.9,43.2,23
+B20,Sicilian,705205,36.1,29.7,34.2
+B21,"Sicilian, 2.f4 and 2.d4",7647,34,25.3,40.7
+B22,"Sicilian, Alapin",55019,34.9,32.9,32.2
+B23,"Sicilian, Closed",75601,35.8,27.1,37.1
+B24,"Sicilian, Closed",21467,32.4,29.2,38.4
+B25,"Sicilian, Closed",13471,30.3,31.4,38.3
+B26,"Sicilian, Closed, 6.Be3",6719,30.7,30.3,39
+B27,Sicilian,532064,36.5,30.2,33.4
+B28,"Sicilian, O'Kelly Variation",8172,37.1,26,37
+B29,"Sicilian, Nimzovich-Rubinstein",4839,39,30.8,30.3
+B30,Sicilian,165947,36.7,30.5,32.8
+B31,"Sicilian, Rossolimo Variation",14947,41.5,32.6,25.9
+B32,Sicilian,110794,35.8,30.5,33.7
+B33,Sicilian,57294,35.4,30.3,34.3
+B34,"Sicilian, Accelerated Fianchetto",715,33.7,22.2,44.1
+B35,"Sicilian, Accelerated Fianchetto, Modern Variation with Bc4",8902,36.8,31.5,31.6
+B36,"Sicilian, Accelerated Fianchetto",11099,37.4,40.3,22.4
+B37,"Sicilian, Accelerated Fianchetto",8921,40.6,36,23.4
+B38,"Sicilian, Accelerated Fianchetto, Maroczy Bind, 6.Be3",8232,40.7,36.4,22.8
+B39,"Sicilian, Accelerated Fianchetto, Breyer Variation",2798,42.5,34.3,23.2
+B40,Sicilian,127180,34.9,31.3,33.9
+B41,"Sicilian, Kan",39489,34.5,29.8,35.6
+B42,"Sicilian, Kan",16163,37.5,32.2,30.3
+B43,"Sicilian, Kan, 5.Nc3",19011,33.6,28.6,37.7
+B44,Sicilian,31636,33.5,34.1,32.4
+B45,"Sicilian, Taimanov",29300,35.7,34.4,29.9
+B46,"Sicilian, Taimanov Variation",7727,37.4,34,28.7
+B47,"Sicilian, Taimanov (Bastrikov) Variation",19683,33.5,34.8,31.7
+B48,"Sicilian, Taimanov Variation",7633,34.5,32.4,33.1
+B49,"Sicilian, Taimanov Variation",2286,31.1,32.4,36.5
+B50,Sicilian,214490,37.1,29.4,33.5
+B51,"Sicilian, Canal-Sokolsky (Rossolimo) Attack",21611,31.6,39.3,29.1
+B52,"Sicilian, Canal-Sokolsky (Rossolimo) Attack",12567,32.2,42.3,25.5
+B53,Sicilian,7853,38.3,30,31.7
+B54,Sicilian,154110,38.2,28.4,33.4
+B55,"Sicilian, Prins Variation, Venice Attack",485,40.6,29.7,29.7
+B56,Sicilian,154706,37.8,28.5,33.7
+B57,Sicilian,11468,35.5,28.1,36.4
+B58,Sicilian,9025,29.6,31.2,39.1
+B59,"Sicilian, Boleslavsky Variation, 7.Nb3",2361,22.4,31.4,46.2
+B60,"Sicilian, Richter-Rauzer",20261,37.3,33.3,29.4
+B61,"Sicilian, Richter-Rauzer, Larsen Variation, 7.Qd2",1622,37.5,35.3,27.2
+B62,"Sicilian, Richter-Rauzer",16248,36.8,33.6,29.6
+B63,"Sicilian, Richter-Rauzer Attack",14860,37.5,33.8,28.7
+B64,"Sicilian, Richter-Rauzer Attack",1703,36.3,39.3,24.4
+B65,"Sicilian, Richter-Rauzer Attack, 7...Be7 Defense, 9...Nxd4",865,35.5,40.8,23.7
+B66,"Sicilian, Richter-Rauzer Attack, 7...a6",9733,36.8,32.9,30.3
+B67,"Sicilian, Richter-Rauzer Attack, 7...a6 Defense, 8...Bd7",4997,37.3,31.2,31.4
+B68,"Sicilian, Richter-Rauzer Attack, 7...a6 Defense, 9...Be7",985,38.9,32,29.1
+B69,"Sicilian, Richter-Rauzer Attack, 7...a6 Defense, 11.Bxf6",407,40.3,35.4,24.3
+B70,"Sicilian, Dragon Variation",34800,41.5,25.7,32.7
+B71,"Sicilian, Dragon, Levenfish Variation",1361,45.8,22,32.1
+B72,"Sicilian, Dragon",20843,44.3,25.3,30.4
+B73,"Sicilian, Dragon, Classical",2458,30.5,31.3,38.2
+B74,"Sicilian, Dragon, Classical",2171,33,30.4,36.7
+B75,"Sicilian, Dragon, Yugoslav Attack",18833,45.4,25.1,29.5
+B76,"Sicilian, Dragon, Yugoslav Attack",11706,46.2,24.2,29.6
+B77,"Sicilian, Dragon, Yugoslav Attack",9939,45.2,23.1,31.7
+B78,"Sicilian, Dragon, Yugoslav Attack, 10.castle long",5997,44.9,22,33.1
+B79,"Sicilian, Dragon, Yugoslav Attack, 12.h4",676,48.4,25.3,26.3
+B80,"Sicilian, Scheveningen",21616,37.3,30.1,32.6
+B81,"Sicilian, Scheveningen, Keres Attack",4424,45,30.2,24.9
+B82,"Sicilian, Scheveningen",1568,41.3,33.7,25
+B83,Sicilian,6430,32.2,33.9,33.9
+B84,"Sicilian, Scheveningen",9570,35.8,28.7,35.5
+B85,"Sicilian, Scheveningen, Classical",224,43.3,27.7,29
+B86,"Sicilian, Fischer-Sozin Attack",2052,35.6,25.4,38.9
+B87,"Sicilian, Fischer-Sozin with ...a6 and ...b5",3490,35.1,26.6,38.2
+B88,"Sicilian, Fischer-Sozin Attack",6130,37.2,26.9,35.9
+B89,Sicilian,4256,39.7,26.3,34
+B90,"Sicilian, Najdorf",89480,37.2,28.5,34.3
+B91,"Sicilian, Najdorf, Zagreb (Fianchetto) Variation",3391,35.8,34.3,29.8
+B92,"Sicilian, Najdorf, Opocensky Variation",19247,34,31.1,34.9
+B93,"Sicilian, Najdorf, 6.f4",5885,38.6,30.9,30.5
+B94,"Sicilian, Najdorf",19325,37.9,26,36.1
+B95,"Sicilian, Najdorf, 6...e6",16679,38.1,25.8,36.1
+B96,"Sicilian, Najdorf",13531,39.1,26.7,34.2
+B97,"Sicilian, Najdorf",2938,32.3,33.7,34
+B98,"Sicilian, Najdorf",5369,44.7,22.8,32.5
+B99,"Sicilian, Najdorf, 7...Be7 Main line",3367,45.2,23.6,31.2
+C00,French Defense,225269,38.7,30.8,30.6
+C01,"French, Exchange",22625,27.2,38.6,34.3
+C02,"French, Advance",30007,37.9,24.8,37.3
+C03,"French, Tarrasch",55388,39.9,34.6,25.5
+C04,"French, Tarrasch, Guimard Main line",2863,41,30.4,28.7
+C05,"French, Tarrasch",22564,43.5,28.5,28
+C06,"French, Tarrasch",8341,40.3,32.7,27
+C07,"French, Tarrasch",15838,35.1,42.5,22.5
+C08,"French, Tarrasch, Open, 4.ed ed",4735,33.3,45.7,20.9
+C09,"French, Tarrasch, Open Variation, Main line",2695,35.3,47.2,17.5
+C10,French,80934,40.6,31,28.3
+C11,French,30585,39.4,31.5,29.1
+C12,"French, McCutcheon",5054,38.3,30.2,31.5
+C13,French,7509,46.1,25.7,28.2
+C14,"French, Classical",3943,45.9,26.9,27.2
+C15,"French, Winawer",39777,40.6,29.6,29.7
+C16,"French, Winawer",28616,41.9,28.8,29.3
+C17,"French, Winawer, Advance",19816,42.3,28.3,29.4
+C18,"French, Winawer",13626,42.4,28.4,29.2
+C19,"French, Winawer, Advance",11251,40.5,29.4,30.1
+C20,King's Pawn Game,404934,41,30,29
+C21,Center Game,6372,45.3,20.6,34
+C22,Center Game,3101,45.1,20.5,34.4
+C23,Bishop's Opening,15935,43.2,25.5,31.3
+C24,Bishop's Opening,11142,41.7,27.1,31.2
+C25,Vienna,17961,43.2,25.3,31.5
+C26,Vienna,13070,40.7,26.4,33
+C27,Vienna Game,804,35,26.9,38.2
+C28,Vienna Game,3572,40.5,27.3,32.2
+C29,Vienna Gambit,2823,37.3,25.8,36.9
+C30,King's Gambit Declined,16179,47.1,19.2,33.8
+C31,"King's Gambit Declined, Falkbeer Counter Gambit",2790,43.1,22,34.9
+C32,"King's Gambit Declined, Falkbeer Counter Gambit",421,53.4,20.9,25.7
+C33,King's Gambit Accepted,8584,44.1,19.5,36.4
+C34,King's Gambit Accepted,6603,44.8,18.6,36.6
+C35,"King's Gambit Accepted, Cunningham",796,43.1,19.7,37.2
+C36,"King's Gambit Accepted, Abbazia Defense",1196,39,25.9,35.1
+C37,King's Gambit Accepted,31,38.7,29,32.3
+C38,King's Gambit Accepted,363,39.7,12.7,47.7
+C39,King's Gambit Accepted,901,40.8,18.9,40.3
+C40,King's Knight Opening,345964,40.5,31.2,28.3
+C41,Philidor Defense,16051,47.1,23.8,29.1
+C42,Petrov Defense,37647,39.5,36.8,23.8
+C43,"Petrov, Modern Attack",5309,43.9,36.1,20.1
+C44,King's Pawn Game,289979,40.1,31.1,28.8
+C45,Scotch Game,27139,40.9,29.1,30.1
+C46,Three Knights,25302,36.6,30.2,33.2
+C47,Four Knights,8592,35.7,38,26.3
+C48,Four Knights,11776,36.8,33.4,29.8
+C49,Four Knights,4536,35.1,36.9,28
+C50,Giuoco Piano,70415,42.5,24.1,33.3
+C51,Evans Gambit,3692,47.6,18.8,33.6
+C52,Evans Gambit,1469,45.2,19.5,35.3
+C53,Giuoco Piano,15674,42.9,27.2,29.9
+C54,Giuoco Piano,5097,41,25.3,33.7
+C55,Two Knights Defense,28150,42.2,23.3,34.4
+C56,Two Knights,1872,26.8,36.4,36.9
+C57,Two Knights,7477,48.3,15.6,36.1
+C58,Two Knights,3675,42.8,19.4,37.8
+C59,Two Knights,1433,39.6,20.7,39.7
+C60,Ruy Lopez,151365,38.5,35.9,25.6
+C61,"Ruy Lopez, Bird's Defense",2446,49,24.1,26.9
+C62,"Ruy Lopez, Old Steinitz Defense",5775,56.2,19.8,24
+C63,"Ruy Lopez, Schliemann Defense",6185,39.3,29.1,31.6
+C64,"Ruy Lopez, Classical",5774,43.7,27.2,29.1
+C65,"Ruy Lopez, Berlin Defense",19974,36.9,39.7,23.4
+C66,Ruy Lopez,1781,51.7,25.8,22.5
+C67,Ruy Lopez,8241,28.4,50.6,21
+C68,"Ruy Lopez, Exchange",14225,33.2,39.3,27.5
+C69,"Ruy Lopez, Exchange, Gligoric Variation",9592,34.5,40.1,25.3
+C70,Ruy Lopez,90701,37.6,37.2,25.1
+C71,Ruy Lopez,7940,38.5,34.1,27.3
+C72,"Ruy Lopez, Modern Steinitz Defense, 5.O-O",2498,42.3,32.7,25
+C73,"Ruy Lopez, Modern Steinitz Defense",1292,36.5,34.8,28.6
+C74,"Ruy Lopez, Modern Steinitz Defense",2870,38.9,35.4,25.6
+C75,"Ruy Lopez, Modern Steinitz Defense",1724,36.2,38.2,25.6
+C76,"Ruy Lopez, Modern Steinitz Defense, Fianchetto Variation",854,34.4,43.2,22.4
+C77,Ruy Lopez,77915,36.8,38.4,24.8
+C78,Ruy Lopez,65193,36.6,39.4,24
+C79,"Ruy Lopez, Steinitz Defense Deferred",1714,45.6,29.9,24.5
+C80,"Ruy Lopez, Open",7293,37.1,37.7,25.2
+C81,"Ruy Lopez, Open, Howell Attack",817,38.6,41.5,20
+C82,"Ruy Lopez, Open",2367,37.3,34.1,28.6
+C83,"Ruy Lopez, Open",999,39,34.8,26.1
+C84,"Ruy Lopez, Closed",43732,34.6,42.1,23.2
+C85,"Ruy Lopez, Exchange Variation Doubly Deferred (DERLD)",2483,32.2,44.7,23.1
+C86,"Ruy Lopez, Worrall Attack",1557,40.4,32.4,27.2
+C87,Ruy Lopez,1258,42.8,36.3,20.8
+C88,Ruy Lopez,39036,35.3,41.5,23.3
+C89,"Ruy Lopez, Marshall",3195,31.5,34.5,34.1
+C90,"Ruy Lopez, Closed",24801,33.2,45.4,21.4
+C91,"Ruy Lopez, Closed",3910,38.6,36.4,25
+C92,"Ruy Lopez, Closed",22540,33.4,45.6,21
+C93,"Ruy Lopez, Closed, Smyslov Defense",1137,33.1,45.6,21.4
+C94,"Ruy Lopez, Closed, Breyer Defense",4488,31.6,46.1,22.3
+C95,"Ruy Lopez, Closed, Breyer",4042,31.1,46.1,22.8
+C96,"Ruy Lopez, Closed",9512,36.2,41.3,22.5
+C97,"Ruy Lopez, Closed, Chigorin",6306,37.3,40.3,22.4
+C98,"Ruy Lopez, Closed, Chigorin",966,33.5,45.3,21.1
+C99,"Ruy Lopez, Closed, Chigorin, 12...cd",2540,36.7,40,23.3
+D00,Queen's Pawn Game,310727,40,34.3,25.7
+D01,Richter-Veresov Attack,7841,35.3,29.4,35.3
+D02,Queen's Pawn Game,99824,38.1,34.5,27.4
+D03,Torre Attack (Tartakower Variation),5984,38.8,31.1,30.1
+D04,Queen's Pawn Game,11286,35.2,31.2,33.5
+D05,Queen's Pawn Game,6301,40.2,31.2,28.6
+D06,Queen's Gambit Declined,210129,40.5,35.5,24
+D07,"Queen's Gambit Declined, Chigorin Defense",5717,43.5,28.7,27.8
+D08,"Queen's Gambit Declined, Albin Counter Gambit",3620,47.5,20.8,31.7
+D09,"Queen's Gambit Declined, Albin Counter Gambit, 5.g3",1369,51.5,20.5,28
+D10,Queen's Gambit Declined Slav,89251,38,39,23
+D11,Queen's Gambit Declined Slav,54218,39.3,38.7,22
+D12,Queen's Gambit Declined Slav,6721,33.4,43.1,23.5
+D13,"Queen's Gambit Declined Slav, Exchange Variation",6711,21.9,59.5,18.7
+D14,"Queen's Gambit Declined Slav, Exchange Variation",4466,13.1,75,11.9
+D15,Queen's Gambit Declined Slav,52260,40.1,36.1,23.8
+D16,Queen's Gambit Declined Slav,15957,37.9,38.4,23.7
+D17,Queen's Gambit Declined Slav,12869,37.1,39.2,23.7
+D18,"Queen's Gambit Declined Slav, Dutch",6699,34.2,40.7,25.2
+D19,"Queen's Gambit Declined Slav, Dutch",5515,33.3,41.7,25
+D20,Queen's Gambit Accepted,24765,39.5,36.6,23.9
+D21,Queen's Gambit Accepted,12566,36.8,40.3,22.9
+D22,Queen's Gambit Accepted,2040,30.2,44.4,25.4
+D23,Queen's Gambit Accepted,14645,36.9,40.3,22.7
+D24,Queen's Gambit Accepted,3273,40.5,30.8,28.7
+D25,Queen's Gambit Accepted,10417,36.1,43.4,20.5
+D26,Queen's Gambit Accepted,7176,35.2,45.3,19.5
+D27,"Queen's Gambit Accepted, Classical",7634,32.4,47.8,19.8
+D28,"Queen's Gambit Accepted, Classical",1502,35.8,37,27.2
+D29,"Queen's Gambit Accepted, Classical",772,30.8,38.2,31
+D30,Queen's Gambit Declined,91976,41.5,33.8,24.7
+D31,Queen's Gambit Declined,69384,41.4,33.5,25.1
+D32,"Queen's Gambit Declined, Tarrasch",7157,38.8,33.5,27.7
+D33,"Queen's Gambit Declined, Tarrasch",4294,40,37.8,22.2
+D34,"Queen's Gambit Declined, Tarrasch",4252,39.6,38.7,21.7
+D35,Queen's Gambit Declined,52338,43.9,32.5,23.5
+D36,"Queen's Gambit Declined, Exchange, Positional line, 6.Qc2",1648,45.3,32.1,22.6
+D37,Queen's Gambit Declined,57774,37.7,40.6,21.7
+D38,"Queen's Gambit Declined, Ragozin Variation",8662,35.2,40.9,23.9
+D39,"Queen's Gambit Declined, Ragozin, Vienna Variation",577,30.2,36.9,32.9
+D40,"Queen's Gambit Declined, Semi-Tarrasch",4837,37.6,42.3,20.2
+D41,"Queen's Gambit Declined, Semi-Tarrasch",3390,37.9,45.1,17
+D42,"Queen's Gambit Declined, Semi-Tarrasch, 7.Bd3",660,36.1,48.6,15.3
+D43,Queen's Gambit Declined Semi-Slav,37523,39.3,35.3,25.4
+D44,Queen's Gambit Declined Semi-Slav,3653,39.8,26.8,33.5
+D45,Queen's Gambit Declined Semi-Slav,30279,38.5,37.2,24.4
+D46,Queen's Gambit Declined Semi-Slav,11846,37.9,36.8,25.3
+D47,Queen's Gambit Declined Semi-Slav,8667,35.1,37.6,27.2
+D48,"Queen's Gambit Declined Semi-Slav, Meran",2910,37.1,33.1,29.8
+D49,"Queen's Gambit Declined Semi-Slav, Meran",811,40.2,36.5,23.3
+D50,Queen's Gambit Declined,24751,42.8,32.9,24.3
+D51,Queen's Gambit Declined,7021,42,29.3,28.7
+D52,Queen's Gambit Declined,7237,39.7,32,28.3
+D53,Queen's Gambit Declined,14548,42.3,35.8,21.9
+D54,"Queen's Gambit Declined, Anti-Neo-Orthodox Variation",466,43.1,42.1,14.8
+D55,Queen's Gambit Declined,13951,37.6,42.3,20.1
+D56,Queen's Gambit Declined,2032,28.4,56.2,15.4
+D57,"Queen's Gambit Declined, Lasker Defense",379,31.1,51.7,17.2
+D58,"Queen's Gambit Declined, Tartakower (Makagonov-Bondarevsky) System",6794,29,49.3,21.7
+D59,"Queen's Gambit Declined, Tartakower",1373,20.8,53.4,25.8
+D60,"Queen's Gambit Declined, Orthodox Defense",9920,40.4,38.9,20.7
+D61,"Queen's Gambit Declined, Orthodox, Rubinstein Attack",2293,43.4,37.6,18.9
+D62,"Queen's Gambit Declined, Orthodox, Rubinstein Attack",379,26.9,59.4,13.7
+D63,"Queen's Gambit Declined, Orthodox Defense",4802,40.6,42,17.4
+D64,"Queen's Gambit Declined, Orthodox, Rubinstein Attack",646,47.7,34.8,17.5
+D65,"Queen's Gambit Declined, Orthodox, Rubinstein Attack, Main line",43,37.2,46.5,16.3
+D66,"Queen's Gambit Declined, Orthodox Defense, Bd3 line",2980,41,43.8,15.1
+D67,"Queen's Gambit Declined, Orthodox Defense, Bd3 line",1619,35,52.7,12.3
+D68,"Queen's Gambit Declined, Orthodox Defense, Classical",890,32.7,54.7,12.6
+D69,"Queen's Gambit Declined, Orthodox Defense, Classical, 13.de",387,27.6,58.9,13.4
+D70,Neo-Grunfeld Defense,857,46.2,30.8,23
+D71,Neo-Grunfeld,1810,37.6,39.8,22.7
+D72,"Neo-Grunfeld, 5.cd, Main line",764,44.8,35.3,19.9
+D73,"Neo-Grunfeld, 5.Nf3",1747,34.6,42,23.4
+D74,"Neo-Grunfeld, 6.cd Nxd5, 7.O-O",2609,38.9,40.9,20.2
+D75,"Neo-Grunfeld, 6.cd Nxd5, 7.O-O c5, 8.dxc5",367,31.3,45.5,23.2
+D76,"Neo-Grunfeld, 6.cd Nxd5, 7.O-O Nb6",1380,35.6,43.4,21
+D77,"Neo-Grunfeld, 6.O-O",4890,34.3,43.8,21.9
+D78,"Neo-Grunfeld, 6.O-O c6",4785,36.1,46,17.9
+D79,"Neo-Grunfeld, 6.O-O, Main line",2409,26.9,56.6,16.5
+D80,Grunfeld,40695,34.9,37.6,27.5
+D81,"Grunfeld, Russian Variation",482,39,34.6,26.3
+D82,"Grunfeld, 4.Bf4",3738,33.9,40.8,25.3
+D83,"Grunfeld, Grunfeld Gambit",1477,34.4,41,24.6
+D84,"Grunfeld, Grunfeld Gambit Accepted",365,33.4,43.8,22.7
+D85,Grunfeld,19047,35.3,37.5,27.2
+D86,"Grunfeld, Exchange",6379,34.3,36.6,29.1
+D87,"Grunfeld, Exchange",2909,36.1,35.7,28.2
+D88,"Grunfeld, Spassky Variation, Main line, 10...cd, 11.cd",1217,37.5,36.6,25.9
+D89,Grunfeld,839,35,33.8,31.1
+D90,Grunfeld,13584,35.4,38,26.6
+D91,"Grunfeld, 5.Bg5",4540,33.9,37.6,28.5
+D92,"Grunfeld, 5.Bf4",2902,34.3,37.6,28.1
+D93,"Grunfeld, with Bf4 & e3",1590,29.7,37.7,32.6
+D94,Grunfeld,4247,29.1,35.8,35.1
+D95,Grunfeld,654,36.5,37.8,25.7
+D96,"Grunfeld, Russian Variation",4335,38,36.6,25.4
+D97,"Grunfeld, Russian",3591,36.5,37.8,25.7
+D98,"Grunfeld, Russian",632,34,40.2,25.8
+D99,"Grunfeld Defense, Smyslov",209,39.7,34.9,25.4
+E00,Queen's Pawn Game,188016,34.6,38.7,26.7
+E01,"Catalan, Closed",6299,36.8,40.1,23.1
+E02,"Catalan, Open, 5.Qa4",519,29.3,43.5,27.2
+E03,"Catalan, Open",47,31.9,44.7,23.4
+E04,"Catalan, Open, 5.Nf3",5666,34.2,42.1,23.7
+E05,"Catalan, Open, Classical line",442,48,33.9,18.1
+E06,"Catalan, Closed, 5.Nf3",10775,40.5,42,17.5
+E07,"Catalan, Closed",2283,46.8,36.3,17
+E08,"Catalan, Closed",1561,50.4,35.6,14
+E09,"Catalan, Closed",1697,46.9,37.1,16
+E10,Queen's Pawn Game,105114,34.1,41.6,24.4
+E11,Bogo-Indian Defense,19877,35.6,40.7,23.6
+E12,Queen's Indian,46702,33.1,42.4,24.4
+E13,"Queen's Indian, 4.Nc3, Main line",664,36.1,32.5,31.3
+E14,Queen's Indian,3774,33,40.1,26.9
+E15,Queen's Indian,24452,31.4,46.3,22.3
+E16,Queen's Indian,2669,37.4,41.2,21.4
+E17,Queen's Indian,8065,32.4,50,17.7
+E18,"Queen's Indian, Old Main line, 7.Nc3",7176,29,53.1,17.9
+E19,"Queen's Indian, Old Main line, 9.Qxc3",2167,26,56.5,17.5
+E20,Nimzo-Indian,73622,33.5,36.7,29.7
+E21,"Nimzo-Indian, Three Knights",7133,34.2,36.8,29
+E22,"Nimzo-Indian, Spielmann Variation",875,35.4,32.9,31.7
+E23,"Nimzo-Indian, Spielmann",281,36.7,37.7,25.6
+E24,"Nimzo-Indian, Samisch",3130,33.4,27.3,39.3
+E25,"Nimzo-Indian, Samisch",1375,33.3,40.5,26.2
+E26,"Nimzo-Indian, Samisch",1229,35.2,27.7,37.1
+E27,"Nimzo-Indian, Samisch Variation",437,34.6,24,41.4
+E28,"Nimzo-Indian, Samisch Variation",435,37.9,25.1,37
+E29,"Nimzo-Indian, Samisch",599,32.2,30.4,37.4
+E30,"Nimzo-Indian, Leningrad",3475,32.7,29.2,38.1
+E31,"Nimzo-Indian, Leningrad, Main line",458,29.3,37.1,33.6
+E32,"Nimzo-Indian, Classical",24199,33.2,39.3,27.6
+E33,"Nimzo-Indian, Classical",1364,36.5,33.6,29.9
+E34,"Nimzo-Indian, Classical, Noa Variation",4014,33.6,42.7,23.7
+E35,"Nimzo-Indian, Classical, Noa Variation, 5.cd ed",1371,34.8,42.2,23
+E36,"Nimzo-Indian, Classical",1151,33.6,43.4,22.9
+E37,"Nimzo-Indian, Classical",599,33.4,49.2,17.4
+E38,"Nimzo-Indian, Classical, 4...c5",6573,34.8,36.1,29.1
+E39,"Nimzo-Indian, Classical, Pirc Variation",2212,29.2,43.7,27
+E40,"Nimzo-Indian, 4.e3",28648,33.7,37.6,28.7
+E41,Nimzo-Indian,8374,34.7,37.7,27.7
+E42,"Nimzo-Indian, 4.e3 c5, 5.Ne2 (Rubinstein)",2698,37.7,37.4,24.9
+E43,"Nimzo-Indian, Fischer Variation",5106,34.8,34.1,31.2
+E44,"Nimzo-Indian, Fischer Variation, 5.Ne2",2833,36.6,35,28.3
+E45,"Nimzo-Indian, 4.e3, Bronstein (Byrne) Variation",1100,33.7,36.2,30.1
+E46,Nimzo-Indian,13365,31.5,39.6,28.9
+E47,"Nimzo-Indian, 4.e3 O-O 5.Bd3",8580,32.2,40.3,27.5
+E48,"Nimzo-Indian, 4.e3 O-O 5.Bd3 d5",5632,30.9,42,27.1
+E49,"Nimzo-Indian, 4.e3, Botvinnik System",630,36.3,30.3,33.3
+E50,"Nimzo-Indian, 4.e3 O-O 5.Nf3, without ...d5",913,30.3,41.4,28.3
+E51,"Nimzo-Indian, 4.e3",1667,32.2,40.7,27.1
+E52,"Nimzo-Indian, 4.e3, Main line with ...b6",929,28.8,45.4,25.7
+E53,"Nimzo-Indian, 4.e3",5980,29.6,45.3,25.2
+E54,"Nimzo-Indian, 4.e3, Gligoric System",2162,27.9,49.7,22.4
+E55,"Nimzo-Indian, 4.e3, Gligoric System, Bronstein Variation",930,24.1,51,24.9
+E56,"Nimzo-Indian, 4.e3, Main line with 7...Nc6",2756,32.1,42.2,25.7
+E57,"Nimzo-Indian, 4.e3, Main line with 8...dc and 9...cd",26,50,42.3,7.7
+E58,"Nimzo-Indian, 4.e3, Main line with 8...Bxc3",2154,31.8,40.8,27.4
+E59,"Nimzo-Indian, 4.e3, Main line",1316,31.5,42.9,25.6
+E60,King's Indian Defense,155644,38.8,32.8,28.5
+E61,King's Indian,133970,39,32.1,29
+E62,"King's Indian, Fianchetto",2327,43.2,29.1,27.7
+E63,"King's Indian, Fianchetto, Panno Variation",6620,37.6,35.9,26.5
+E64,"King's Indian, Fianchetto, Yugoslav System",1285,42.4,33,24.6
+E65,"King's Indian, Fianchetto, Yugoslav, 7.O-O",2574,43,34.1,22.9
+E66,"King's Indian, Fianchetto, Yugoslav Panno",1203,42.9,30.2,26.9
+E67,"King's Indian, Fianchetto",6659,41.5,31.5,26.9
+E68,"King's Indian, Fianchetto, Classical Variation, 8.e4",7898,42.2,33.8,24
+E69,"King's Indian, Fianchetto, Classical Main line",4397,45.7,32.1,22.2
+E70,King's Indian,83515,41.2,29.7,29.1
+E71,"King's Indian, Makagonov System (5.h3)",4051,47.1,27.2,25.7
+E72,King's Indian,537,41,27.4,31.7
+E73,King's Indian,18792,42.2,31,26.8
+E74,"King's Indian, Averbakh, 6...c5",2614,41.8,33.7,24.4
+E75,"King's Indian, Averbakh, Main line",578,38.2,35.8,26
+E76,"King's Indian, Four Pawns Attack",7265,44.1,25.1,30.9
+E77,King's Indian,780,37.6,29.6,32.8
+E78,"King's Indian, Four Pawns Attack, with Be2 and Nf3",362,38.1,39.5,22.4
+E79,"King's Indian, Four Pawns Attack, Main line",252,36.9,43.3,19.8
+E80,"King's Indian, Samisch Variation",23953,42.8,28,29.2
+E81,"King's Indian, Samisch",21180,42.3,27.7,30
+E82,"King's Indian, Samisch, double Fianchetto Variation",849,38.3,31.6,30.2
+E83,"King's Indian, Samisch",3729,38.2,27.7,34.1
+E84,"King's Indian, Samisch, Panno Main line",2173,40,30.6,29.4
+E85,"King's Indian, Samisch, Orthodox Variation",5285,44.6,26.8,28.6
+E86,"King's Indian, Samisch, Orthodox, 7.Nge2 c6",1088,43.8,30.1,26
+E87,"King's Indian, Samisch, Orthodox",3321,43.8,26.6,29.6
+E88,"King's Indian, Samisch, Orthodox, 7.d5 c6",1348,42.5,26.8,30.7
+E89,"King's Indian, Samisch, Orthodox Main line",212,36.8,32.1,31.1
+E90,King's Indian,43354,41.4,31.4,27.2
+E91,King's Indian,57980,40.2,32.1,27.7
+E92,King's Indian,41610,40.1,32.9,27.1
+E93,"King's Indian, Petrosian System",1484,39.6,28.4,32
+E94,"King's Indian, Orthodox",25558,41.9,31.3,26.8
+E95,"King's Indian, Orthodox, 7...Nbd7, 8.Re1",2540,37,36.3,26.7
+E96,"King's Indian, Orthodox, 7...Nbd7, Main line",394,33.5,43.7,22.8
+E97,King's Indian,18337,43,29,28
+E98,"King's Indian, Orthodox, Taimanov, 9.Ne1",6550,43.7,26.4,30
+E99,"King's Indian, Orthodox, Taimanov",806,40.9,30.6,28.4

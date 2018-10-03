@@ -18,9 +18,13 @@ const boardColorStyles = {
 
 const boardColors = boardColorStyles.classic;
 
-function parseFEN(FEN) {
+function parseFEN(FEN, flipped=false) {
     let board = []
     let FENItems = FEN.split('')
+
+    if (flipped) {
+        FENItems = FEN.split('').reverse()
+    }
 
     FENItems.forEach(
         function(item) {
@@ -46,9 +50,9 @@ function mapBoard(board) {
         let rowIndex = Math.floor(i / 8);
         let columnIndex = i - rowIndex * 8;
         if ((rowIndex + columnIndex) % 2) {
-            boardMap.push(<BoardSquare squareColor="D" squarePiece={board[i]} style={{'background-color': boardColors.darkSquare}} />);
+            boardMap.push(<BoardSquare squareColor="D" squarePiece={board[i]} style={{'backgroundColor': boardColors.darkSquare}} />);
         } else {
-            boardMap.push(<BoardSquare squareColor="L" squarePiece={board[i]} style={{'background-color': boardColors.lightSquare}} />);
+            boardMap.push(<BoardSquare squareColor="L" squarePiece={board[i]} style={{'backgroundColor': boardColors.lightSquare}} />);
         }
     };
 
@@ -58,7 +62,7 @@ function mapBoard(board) {
 class Board extends React.Component {
     render() {
         let FEN = this.props.openingFEN;
-        let board = parseFEN(FEN);
+        let board = parseFEN(FEN, this.props.flipped);
         let boardMap = mapBoard(board);
 
         return (

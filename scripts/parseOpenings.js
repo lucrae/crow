@@ -34,6 +34,8 @@ fs.createReadStream('./openings_data.csv')
                 openingName: data.openingName,
                 openingMoves: data.openingMoves,
                 openingFENs: createFENList(data.openingMoves),
+                openingSubcategory: data.openingSubcategory,
+                openingGamesPlayed: data.openingGamesPlayed,
                 openingWhiteScore: data.openingWhiteScore,
                 openingDrawScore: data.openingDrawScore,
                 openingBlackScore: data.openingBlackScore,

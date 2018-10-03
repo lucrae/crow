@@ -7,5 +7,10 @@
 .Selected {
     color: #2222b1;
     background-color: #e5e5e5;
-/*     font-weight: bold; */
+}
+
+.Subcategory {
+    color: #aaa;
+
+    font-size: 12px;
 }

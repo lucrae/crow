@@ -2,23 +2,27 @@ body {
     background-color: #f8f8f8;  
 }
 
+.Highlight {
+    color: #2222b1;
+}
+
 .Layout {
     margin: 64px auto;
     max-width: 880px;
     display: flex;
 }
 
-.headPanel {
+.HeadPanel {
     color: #666;
     padding: 8px;
     margin-bottom: 8px;
 }
 
-.headPanel i {
+.HeadPanel i {
     margin-right: 6px;
 }
 
-.headMain {
+.HeadMain {
     font-weight: bold;
     font-size: 12px;
     background-color: #666;
@@ -27,7 +31,7 @@ body {
     border-radius: 2px;
 }
 
-.headSub {
+.HeadSub {
     font-weight: bold;
     font-size: 12px;
     padding: 2px;
@@ -170,7 +174,7 @@ body {
 }
 
 .Browser tr:active {
-    background-color: #ccc;
+    background-color: #ddd;
     cursor: pointer;
 }
 
@@ -197,6 +201,11 @@ body {
     border-radius: 4px;
     margin-top: 8px;
     margin-bottom: 12px;
+}
+
+.Details i {
+    width: 16px;
+    margin-right: 4px;
 }
 
 .Statistics {
@@ -228,4 +237,10 @@ body {
     width: 20%;
     color: white;
     text-align: center;
+}
+
+.Footer {
+    color: #aaa;
+    width: 100%;
+    font-size: 14px;
 }
